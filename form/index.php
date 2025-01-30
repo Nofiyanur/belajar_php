@@ -41,7 +41,7 @@
                 <option value="Hindu">Hindu</option>
                 <option value="Budha">Budha</option>
                 <option value="Konghucu">Konghucu</option>
-            </select>
+            </select>  
            <p>Alamat: </p>
            <textarea name="alamat" id="alamat" cols="30"
            rows="10"></textarea>
