@@ -46,8 +46,8 @@
            <textarea name="alamat" id="alamat" cols="30"
            rows="10"></textarea>
         <p>
-            <label>Asal sekolah: </label>
-            <input type="text" name="Asal sekolah" placeholder="Masukkan Asal sekolah">
+            <label>Asal Sekolah: </label>
+            <input type="text" name="Asal Sekolah" placeholder="Masukkan Asal sekolah">
         </p>
         <p>
         <label for="Jurusan">Pilih Jurusal Pertama: </label>
