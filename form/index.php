@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
     <form action="form4.html" method="POST">
@@ -11,7 +12,7 @@
             <legend><h1>Formulir PPDB SMKN 1 BANYUWANGI </h1></legend>
         <p>
             <label>NISN: </label>
-            <input type="text" name="NISN" placeholder="Masukkan NISN">
+            <input type="number" name="NISN" placeholder="Masukkan NISN">
         </p>
         <p>
             <label>Nama: </label>
@@ -24,7 +25,6 @@
         <form action="/action_page.php">
             <label for="birthday">Tanggal lahir: </label>
             <input type="date" id="Tempat lahir" name="Tanggal lahir">
-            <input type="submit">
         </form>
         <form action="/action.page">
         <p>Jenis Kelamin: </p>
@@ -42,17 +42,14 @@
                 <option value="Budha">Budha</option>
                 <option value="Konghucu">Konghucu</option>
             </select>
-            <style>
-                #alamat{
-                    font-size: 10px;
-                    color: red;
-                    font-style: normal;
-                }
-                </style>
+           <p>Alamat: </p>
+           <textarea name="alamat" id="alamat" cols="30"
+           rows="10"></textarea>
         <p>
             <label>Asal sekolah: </label>
             <input type="text" name="Asal sekolah" placeholder="Masukkan Asal sekolah">
         </p>
+        <p>
         <label for="Jurusan">Pilih Jurusal Pertama: </label>
             <select id="Jurusan">
                 <option value="AKL">AKUNTANSI KEUANGAN LEMBAGA</option>
@@ -66,7 +63,9 @@
                 <option value="SP">SENI PERTUNJUKAN</option>
                 <option value="KL">KULINER</option>
             </select>
-            <label for="Jurusan">Pilih Jurusal Kedua: </label>
+        </p>
+        <p>
+        <label for="Jurusan">Pilih Jurusal Kedua: </label>
             <select id="Jurusan">
                 <option value="AKL">AKUNTANSI KEUANGAN LEMBAGA</option>
                 <option value="MPLB">MANAJEMEN DAN PELAYANAN BISNIS</option>
@@ -79,7 +78,9 @@
                 <option value="SP">SENI PERTUNJUKAN</option>
                 <option value="KL">KULINER</option>
             </select>
-            <label for="Jurusan">Pilih Jurusal Ketiga: </label>
+        </p>
+        <p>
+        <label for="Jurusan">Pilih Jurusal Ketiga: </label>
             <select id="Jurusan">
                 <option value="AKL">AKUNTANSI KEUANGAN LEMBAGA</option>
                 <option value="MPLB">MANAJEMEN DAN PELAYANAN BISNIS</option>
@@ -92,6 +93,7 @@
                 <option value="SP">SENI PERTUNJUKAN</option>
                 <option value="KL">KULINER</option>
             </select>
+        </p>
             <p>
                 <label>Ekstrakulikuler yang diminati: </label>
                 <input type="checkbox" name="Encasa">Encasa
@@ -100,7 +102,7 @@
                 <input type="checkbox" name="Basket">Basket
                 <input type="checkbox" name="Voli">Voli
                 <input type="checkbox" name="Teater">Teater
-                Lintas Platform
             </p>
+            <button type="button" class="btn btn-success">Submit</button>
 </body>
 </html>
