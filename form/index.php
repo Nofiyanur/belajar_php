@@ -103,7 +103,7 @@
                 <input type="checkbox" name="Voli">Voli
                 <input type="checkbox" name="Teater">Teater
             </p>
-            <button type="button" class="btn btn-success">Submit</button>
-            
+            <button type="button" class="btn btn-success">Submit!</button>
+
 </body>
 </html>
