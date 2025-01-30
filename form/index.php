@@ -19,8 +19,8 @@
             <input type="text" name="Nama" placeholder="Masukkan Nama">
         </p>
         <p>
-            <label>Tempat lahir: </label>
-            <input type="text" name="Tempat lahir" placeholder="Masukkan Tempat lahir">
+            <label>Tempat Lahir: </label>
+            <input type="text" name="Tempat Lahir" placeholder="Masukkan Tempat lahir">
         </p>
         <form action="/action_page.php">
             <label for="birthday">Tanggal lahir: </label>
